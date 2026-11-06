@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tahirasmith.github.io/sitemap.xml
