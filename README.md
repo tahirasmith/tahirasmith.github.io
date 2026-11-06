@@ -8,11 +8,15 @@ Plain HTML and CSS, hosted free on GitHub Pages. No build step: edit a file, com
 
 | File | What it does |
 |---|---|
-| `index.html` | The whole site. Search for `EDIT ME` to find the parts to personalize. |
-| `style.css` | Colors, fonts, layout. Change the variables at the top to restyle. Dark mode is automatic. |
-| `robots.txt`, `sitemap.xml` | Tell Google the site exists and can be indexed. |
+| `index.html` | Home tab: name, intro and the animated loss curve. |
+| `about.html` | About tab: bio, focus areas, tools and contact links. Search for `EDIT ME`. |
+| `projects.html` | Projects tab: one `<li class="project">` block per project. Copy a block to add one. |
+| `site.css` | Shared styles. Colors and fonts are the variables at the top. Dark mode and reduced motion are automatic. |
+| `robots.txt`, `sitemap.xml` | Tell Google the site exists and which pages to index. |
 | `404.html` | Page shown for broken links. |
 | `favicon.svg` | Browser tab icon. |
+
+Motion: the loss curve draws in once on the home page, and switching tabs crossfades (Chrome, Edge and Safari 18+; other browsers just switch instantly). Everything is static for visitors who turn on reduced motion.
 
 ## Getting it on Google
 
@@ -28,4 +32,4 @@ When you add pages or make big changes, update `<lastmod>` in `sitemap.xml`.
 
 ## Adding a résumé
 
-Drop `resume.pdf` in the repo root and uncomment the Résumé button in the Contact section.
+Drop `resume.pdf` in the repo root and uncomment the Résumé button in the contact section of `about.html`.
